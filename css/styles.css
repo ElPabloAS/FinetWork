@@ -1,3 +1,6 @@
+*{
+    box-sizing: ;
+}
 body{
     margin:  0%;
 }
@@ -12,12 +15,14 @@ body{
     height: 100%;
 }
 .right{
+    justify-content: center;
+    align-items: center;
     margin-left: 55%;
     position: absolute;
     display: flex;
     height: 100%;
-    width: 100%;
-    background-color: chartreuse;
+    width: 40%;
+    background-color: rgb(255, 255, 255);
 }
 .fondo{
     display: flex;
@@ -44,4 +49,40 @@ body{
     margin:24% 60% 80% 5%;
     color: white;
     font-size: 15px;
+}
+.form{
+    display: inline;
+}
+.dp{
+    display: flex;
+    margin: 0;
+}
+li{
+    margin-right: 20px;
+    list-style: none;
+}
+a{
+
+    text-decoration: none;
+
+}
+.barra{
+    color: blueviolet;
+    padding: 3px 14px;
+    border-bottom: solid 3px;
+}
+.caja{
+    width: 110%;
+    border:solid 1.5px;
+    height: 30px;
+}
+.submit{
+    background-color: blueviolet;
+    color: white;
+    height: 60px;
+    width: 240px;
+    border: none;
+}
+form *{
+    margin-top: 10px;
 }
