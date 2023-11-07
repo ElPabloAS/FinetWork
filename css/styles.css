@@ -1,5 +1,10 @@
+@font-face {
+    font-family: dunk;
+    src: url(../fonts/DrukText-Bold-Trial.otf);
+}
 *{
-    box-sizing: ;
+    box-sizing: border-box;
+    font-family: arial;
 }
 body{
     margin:  0%;
@@ -66,10 +71,12 @@ a{
     text-decoration: none;
 
 }
-.barra{
+li:hover{
     color: blueviolet;
-    padding: 3px 14px;
     border-bottom: solid 3px;
+}
+.barra{
+    padding: 3px 25px;
 }
 .caja{
     width: 110%;
@@ -85,4 +92,10 @@ a{
 }
 form *{
     margin-top: 10px;
+}
+h1{
+    font-family: dunk;
+}
+.dunk{
+    font-family: dunk;
 }
