@@ -1,6 +1,6 @@
 @font-face {
     font-family: dunk;
-    src: url(../fonts/DrukText-Bold-Trial.otf);
+    src: url(../fonts/Druk-Bold.woff2);
 }
 *{
     box-sizing: border-box;
@@ -45,15 +45,16 @@ body{
     display: flex;
     margin:10% 60% 60% 5%;
     color: white;
-    font-size: 38px;
+    font-size: 50px;
 }
 .enunciado2{
     position: absolute;
     background-color: transparent;
     display: flex;
-    margin:24% 60% 80% 5%;
+    margin:30% 60% 80% 5%;
     color: white;
     font-size: 15px;
+    line-height: 160%;
 }
 .form{
     display: inline;
@@ -67,7 +68,6 @@ li{
     list-style: none;
 }
 a{
-
     text-decoration: none;
 
 }
@@ -76,12 +76,13 @@ li:hover{
     border-bottom: solid 3px;
 }
 .barra{
-    padding: 3px 25px;
+    padding: 3px 20px;
 }
 .caja{
-    width: 110%;
+    width: 100%;
     border:solid 1.5px;
-    height: 30px;
+    height: 40px;
+    padding: 10px;
 }
 .submit{
     background-color: blueviolet;
@@ -92,10 +93,29 @@ li:hover{
 }
 form *{
     margin-top: 10px;
+    font-size: 12px;
 }
 h1{
     font-family: dunk;
 }
 .dunk{
     font-family: dunk;
+}
+.text-grey{
+    color: grey;
+}
+.terminos{
+    margin-top: 50px;
+    font-size: 12px;
+}
+.contra{
+    margin-top: 20px;
+    font-size: 12px;
+}
+.parrafo{
+    font-size: 12px;
+}
+.titulo{
+    font-size: 25px;
+    margin-bottom: 70px;
 }
